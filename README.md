@@ -1,24 +1,17 @@
-# README
+# Bank-Simple
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Made By:
+- Yusuf Rahmat Pratama (http://github.com/yusufrahmatp)
+- Nicholas Rianto Putra (http://github.com/Nicholaz99)
 
-* Ruby version
 
-* System dependencies
+## Run Rails Program: 
 
-* Configuration
+1. Install rails
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. Run rails server
+```
+$ rails server
+```
+3. Access program at `http://local.host:3000`
