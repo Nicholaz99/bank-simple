@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   
+  before_action :require_user, except: [:new, :index, :create]
   before_action :require_same_user, except: [:new, :create, :index]
 
   def index
